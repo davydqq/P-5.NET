@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflex", "Reflex.csproj", "{B2513F0B-038B-4101-9474-9C6847AB64A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2513F0B-038B-4101-9474-9C6847AB64A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2513F0B-038B-4101-9474-9C6847AB64A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2513F0B-038B-4101-9474-9C6847AB64A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2513F0B-038B-4101-9474-9C6847AB64A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C606F8E1-0742-4133-92DC-AEC2A8CB53E6}
+	EndGlobalSection
+EndGlobal
