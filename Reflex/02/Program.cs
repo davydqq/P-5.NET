@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace _02
+namespace ReflectionSample
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace _02
         private static object _warningService;
         private static List<object> _warningServiceParameterValues;
 
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             BootStrapFromConfiguration();
 

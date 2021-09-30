@@ -16,7 +16,7 @@ namespace ReflectionSample
             var typesFromCurrentAssembly = currentAssembly.GetTypes();
             foreach (var type in typesFromCurrentAssembly)
             {
-                Console.WriteLine(type.Name);
+                Console.WriteLine("Type: " + type.FullName);
             }
 
             var oneTypeFromCurrentAssembly = currentAssembly.GetType("ReflectionSample.Person");
@@ -35,7 +35,7 @@ namespace ReflectionSample
 
             foreach (var constructor in oneTypeFromCurrentAssembly.GetConstructors())
             {  
-                Console.WriteLine(constructor);
+                Console.WriteLine("constructor: " + constructor);
             }
 
             //foreach (var method in oneTypeFromCurrentAssembly.GetMethods())
