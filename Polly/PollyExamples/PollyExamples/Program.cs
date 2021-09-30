@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Polly
+namespace PollyExamples
 {
     class Program
     {
